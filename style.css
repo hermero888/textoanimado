@@ -51,23 +51,27 @@ h2 {
 
 .all {
   background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(115, 198, 231, 0.767) 0%, rgb(122, 203, 235) 35%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgba(115, 198, 231, 0.767) 0%, rgb(122, 203, 235) 35%, rgba(0,212,255,1) 100%);
   
 }
 
 .green {
-  background: lightgreen;
+  background: rgb(65, 185, 119);
+  background: linear-gradient(90deg, rgba(60, 199, 118, 0.767) 0%, rgb(25, 187, 92) 35%, rgb(23, 219, 128) 100%);
 }
 
 .blue {
-  background: lightblue;
+  background: rgb(44, 142, 235);
+  background: linear-gradient(90deg, rgba(105, 205, 245, 0.767) 0%, rgb(122, 203, 235) 35%, rgba(0,212,255,1) 100%);
 }
 
 .red {
-  background: lightcoral;
+  background: rgb(243, 15, 15);
+  background: linear-gradient(90deg, rgba(247, 96, 96, 0.767) 0%, rgb(233, 13, 13) 35%, rgba(241, 134, 134, 0.486) 100%);
 }
 .yellow {
-  background: rgb(238, 240, 128);
+  background: rgb(200, 230, 67);
+  background: linear-gradient(90deg, rgba(238, 247, 113, 0.767) 0%, rgba(225, 240, 144, 0.692) 35%, rgba(223, 220, 92, 0.726) 100%);
 }
 
 .filter a.active:before {
