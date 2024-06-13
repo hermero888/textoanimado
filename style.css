@@ -50,7 +50,23 @@ h2 {
 }
 
 .all {
-  background: khaki;
+.all:hover,
+.all:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@-webkit-keyframes all {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes all {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
 }
 
 .green {
