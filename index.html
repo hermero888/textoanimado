@@ -2,30 +2,40 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - A Pen by Barrel</title>
-  <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/163697/normalize.css'><link rel="stylesheet" href="./style.css">
+  <title>CodePen - Sequential filtering/sorting component with CSS &amp; jQuery</title>
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<div class="wrapper">
-  
-  <div class="carousel">
-    <div class="inner">
-      <div class="slide active">
-      	<h1>1</h1>
-      </div>
-      <div class="slide">
-        <h1>2</h1>
-      </div>
-      <div class="slide">
-      	<h1>3</h1>
-      </div>
-    </div>
-    <div class="arrow arrow-left"></div>
-    <div class="arrow arrow-right"></div>
-  </div>
+<header>
+  <h2>Sequential filtering component with CSS & jQuery</h2>
+</header>
 
+<div class="cta filter">
+  <a class="all active" data-filter="all" href="#" role="button">Show All</a>
+  <a class="green" data-filter="green" href="#" role="button">Show Green Boxes</a>
+  <a class="blue" data-filter="blue" href="#" role="button">Show Blue Boxes</a>
+  <a class="red" data-filter="red" href="#" role="button">Show Red Boxes</a>
+</div>
+
+<div class="boxes">
+  <a class="red" data-category="red" href="#">Box1</a>
+  <a class="green" data-category="green" href="#">Box2</a>
+  <a class="blue" data-category="blue" href="#">Box3</a>
+  <a class="green" data-category="green" href="#">Box4</a>
+  <a class="red" data-category="red" href="#">Box5</a>
+  <a class="green" data-category="green" href="#">Box6</a>
+  <a class="blue" data-category="blue" href="#">Box7</a>
+  <a class="red" data-category="red" href="#">Box8</a>
+  <a class="green" data-category="green" href="#">Box9</a>
+  <a class="blue" data-category="blue" href="#">Box10</a>
+  <a class="red" data-category="red" href="#">Box11</a>
+  <a class="green" data-category="green" href="#">Box12</a>
+  <a class="blue" data-category="blue" href="#">Box13</a>
+  <a class="green" data-category="green" href="#">Box14</a>
+  <a class="red" data-category="red" href="#">Box15</a>
+  <a class="blue" data-category="blue" href="#">Box16</a>
 </div>
 <!-- partial -->
   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
