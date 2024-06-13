@@ -65,6 +65,9 @@ h2 {
 .red {
   background: lightcoral;
 }
+.yellow {
+  background: yellow;
+}
 
 .filter a.active:before {
   content: '';
