@@ -1,11 +1,11 @@
 * {
-  margin: 10%;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 html {
-  font: 18px/1.65 sans-serif;
+  font: 16px/1.65 sans-serif;
   text-align: center;
 }
 
