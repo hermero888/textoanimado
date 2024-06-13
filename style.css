@@ -25,7 +25,7 @@ h2 {
 }
 
 .filter {
-  margin: 10px 0 10px;
+  margin: 30px 0 10px;
 }
 
 .filter a {
@@ -44,29 +44,14 @@ h2 {
 
 .boxes a {
   width: 23%;
-  border: 2px solid #333;
+  border: 2px solid #3eaee2;
   margin: 0 1% 20px 1%;
   line-height: 60px;
 }
 
 .all {
-.all:hover,
-.all:focus {
-  -webkit-animation: pulse 1s;
-          animation: pulse 1s;
-  box-shadow: 0 0 0 2em transparent;
-}
-
-@-webkit-keyframes all {
-  0% {
-    box-shadow: 0 0 0 0 var(--hover);
-  }
-}
-
-@keyframes all {
-  0% {
-    box-shadow: 0 0 0 0 var(--hover);
-  }
+  background: khaki;
+  
 }
 
 .green {
@@ -92,6 +77,8 @@ h2 {
   border-style: solid;
   border-width: 15px 15px 0 0;
   border-color: #333 transparent transparent transparent;
+  box-shadow: inset 6.5em 0 0 0 var(--hover);
+
 }
 
 .is-animated {
