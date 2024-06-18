@@ -74,6 +74,12 @@ h2 {
   background: linear-gradient(90deg, rgba(238, 247, 113, 0.767) 0%, rgba(225, 240, 144, 0.692) 35%, rgba(223, 220, 92, 0.726) 100%);
 }
 
+.purple {
+  background: rgb(194,43,223);
+  background: linear-gradient(90deg, rgba(194,43,223,1) 0%, rgba(153,33,217,1) 46%, rgba(174,16,222,0.7875525210084033) 100%);
+}
+
+
 .filter a.active:before {
   content: '';
   position: absolute;
